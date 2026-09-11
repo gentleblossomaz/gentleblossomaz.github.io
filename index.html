@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Gentle Blossom | Handmade by Leilannie</title>
+<meta name="description" content="Gentle Blossom by Leilannie — handmade bracelets, keychains and little creations made with love.">
+<style>
+:root {
+  --navy:#173e67; --blue:#2f6fa3; --sky:#dff1ff; --pale:#f6fbff; --gold:#f4c768;
+  --ink:#17344f; --white:#fff; --lav:#eee7ff; --peach:#fff0e2;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:ui-rounded, "Avenir Next", "Trebuchet MS", system-ui, sans-serif;color:var(--ink);background:
+radial-gradient(circle at 10% 10%,#eaf7ff 0 14%,transparent 15%),
+linear-gradient(180deg,#fbfdff,#eef8ff 45%,#fff);}
+a{color:inherit}
+.notice{background:var(--navy);color:white;text-align:center;padding:10px 16px;font-size:14px}
+nav{position:sticky;top:0;z-index:10;background:rgba(255,255,255,.92);backdrop-filter:blur(10px);display:flex;justify-content:space-between;align-items:center;padding:14px clamp(18px,5vw,70px);border-bottom:1px solid #dbeaf6}
+.brand{font-weight:900;letter-spacing:.3px;font-size:20px;color:var(--navy)}
+.navlinks{display:flex;gap:18px;font-size:14px}
+.navlinks a{text-decoration:none;font-weight:700}
+.hero{min-height:72vh;display:grid;grid-template-columns:1.05fr .95fr;gap:35px;align-items:center;padding:70px clamp(22px,7vw,100px)}
+.hero h1{font-size:clamp(46px,7vw,92px);line-height:.92;margin:0;color:var(--navy);letter-spacing:-2px}
+.hero h1 span{display:block;font-size:.44em;color:var(--blue);letter-spacing:1px;margin-top:14px}
+.hero p{font-size:clamp(18px,2vw,23px);max-width:650px;line-height:1.55}
+.buttons{display:flex;gap:12px;flex-wrap:wrap;margin-top:24px}
+.btn{display:inline-block;padding:14px 20px;border-radius:999px;text-decoration:none;font-weight:900;border:2px solid var(--navy);transition:.2s}
+.btn.primary{background:var(--navy);color:white}
+.btn.secondary{background:white;color:var(--navy)}
+.btn:hover{transform:translateY(-2px);box-shadow:0 9px 20px rgba(23,62,103,.13)}
+.hero-card{background:white;border:1px solid #dbeaf6;padding:16px;border-radius:30px;box-shadow:0 24px 60px rgba(23,62,103,.12);transform:rotate(1deg)}
+.hero-card img{width:100%;border-radius:22px;display:block}
+section{padding:70px clamp(22px,7vw,100px)}
+.section-title{font-size:clamp(32px,5vw,56px);margin:0 0 8px;color:var(--navy)}
+.section-sub{font-size:18px;margin:0 0 30px;max-width:760px}
+.products{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.product{background:white;border-radius:26px;padding:14px;box-shadow:0 14px 35px rgba(23,62,103,.09);border:1px solid #dcecf7}
+.product img{width:100%;aspect-ratio:1/1;object-fit:cover;border-radius:20px}
+.product h3{font-size:25px;margin:16px 8px 5px;color:var(--navy)}
+.product p{margin:0 8px 15px;line-height:1.45}
+.badge{display:inline-block;background:#e8f7ee;color:#21653a;padding:6px 10px;border-radius:999px;font-weight:800;font-size:12px;margin:4px 8px 12px}
+.product .btn{margin:0 8px 8px;width:calc(100% - 16px);text-align:center}
+.soft{background:linear-gradient(135deg,#e7f5ff,#f7f2ff)}
+.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.step{background:white;padding:24px;border-radius:22px;border:1px solid #dcecf7}
+.num{width:42px;height:42px;border-radius:50%;background:var(--navy);color:white;display:grid;place-items:center;font-weight:900;margin-bottom:12px}
+.about{display:grid;grid-template-columns:1.1fr .9fr;gap:28px;align-items:center}
+.about-card{background:white;padding:30px;border-radius:28px;border:1px solid #dcecf7}
+.payment{display:grid;grid-template-columns:1fr 320px;gap:28px;align-items:center;background:white;border-radius:28px;padding:28px;border:1px solid #dcecf7}
+.payment img{width:100%;border-radius:18px;border:1px solid #dcecf7}
+.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.contact-card{padding:24px;border-radius:22px;background:white;border:1px solid #dcecf7}
+footer{padding:34px 20px;text-align:center;background:var(--navy);color:white}
+.small{font-size:13px;opacity:.8}
+.sparkle{position:fixed;pointer-events:none;z-index:-1;font-size:24px;opacity:.25}
+@media(max-width:800px){
+ .hero,.about,.payment{grid-template-columns:1fr}
+ .products,.steps,.contact-grid{grid-template-columns:1fr}
+ .navlinks{display:none}
+ .hero{padding-top:45px}
+}
+</style>
+</head>
+<body>
+<div class="notice">🌸 Parent-managed shop • Handmade with love • Arizona</div>
+<nav>
+  <div class="brand">Gentle Blossom 💙</div>
+  <div class="navlinks">
+    <a href="#shop">Shop</a><a href="#custom">Custom</a><a href="#about">Our Story</a><a href="#pay">Pay</a><a href="#contact">Contact</a>
+  </div>
+</nav>
+
+<header class="hero">
+  <div>
+    <div style="font-weight:900;color:#2f6fa3;letter-spacing:2px;margin-bottom:14px">BY LEILANNIE • EST. 2026</div>
+    <h1>Gentle<br>Blossom <span>little creations • big dreams</span></h1>
+    <p>Handmade bracelets, keychains, and happy little accessories made one at a time with love. See something you like? Send us an order request and we'll confirm availability.</p>
+    <div class="buttons">
+      <a class="btn primary" href="#shop">Shop the first drop ✨</a>
+      <a class="btn secondary" href="mailto:gentleblossomaz@gmail.com?subject=Gentle%20Blossom%20Custom%20Order">Request a custom order</a>
+    </div>
+  </div>
+  <div class="hero-card"><img src="assets/bracelets_all.jpg" alt="Gentle Blossom handmade bracelets"></div>
+</header>
+
+<section id="shop">
+  <h2 class="section-title">The First Drop 🌼</h2>
+  <p class="section-sub">These are handmade one at a time, so quantities may be limited. Tap “I want this” and your email app will open with the bracelet already named.</p>
+  <div class="products">
+    <article class="product">
+      <img src="assets/orange_a.jpg" alt="Orange A bracelet">
+      <span class="badge">Available</span>
+      <h3>Orange Blossom 🧡</h3>
+      <p>Orange, yellow and white beads with a bold letter A and cheerful charms.</p>
+      <a class="btn primary" href="mailto:gentleblossomaz@gmail.com?subject=Order%20Request%20-%20Orange%20Blossom%20A&body=Hi%20Gentle%20Blossom!%20I%27m%20interested%20in%20the%20Orange%20Blossom%20A%20bracelet.%20Is%20it%20still%20available%3F">I want this 💌</a>
+    </article>
+    <article class="product">
+      <img src="assets/yellow_v.jpg" alt="Yellow V bracelet">
+      <span class="badge">Available</span>
+      <h3>Sunshine V 💛</h3>
+      <p>Sunny yellow, white and light green beads with a letter V and playful charms.</p>
+      <a class="btn primary" href="mailto:gentleblossomaz@gmail.com?subject=Order%20Request%20-%20Sunshine%20V&body=Hi%20Gentle%20Blossom!%20I%27m%20interested%20in%20the%20Sunshine%20V%20bracelet.%20Is%20it%20still%20available%3F">I want this 💌</a>
+    </article>
+    <article class="product">
+      <img src="assets/purple_e.jpg" alt="Purple E bracelet">
+      <span class="badge">Available</span>
+      <h3>Purple Dream E 💜</h3>
+      <p>Purple, blue and white beads with a letter E plus happy, starry charms.</p>
+      <a class="btn primary" href="mailto:gentleblossomaz@gmail.com?subject=Order%20Request%20-%20Purple%20Dream%20E&body=Hi%20Gentle%20Blossom!%20I%27m%20interested%20in%20the%20Purple%20Dream%20E%20bracelet.%20Is%20it%20still%20available%3F">I want this 💌</a>
+    </article>
+  </div>
+</section>
+
+<section id="custom" class="soft">
+  <h2 class="section-title">Make It Yours ✨</h2>
+  <p class="section-sub">Want a favorite color, initial, or special theme? Send us your idea. We'll reply with what's possible before any payment is sent.</p>
+  <div class="steps">
+    <div class="step"><div class="num">1</div><h3>Tell us your idea</h3><p>Color, letter, theme, size, or the kind of charms you like.</p></div>
+    <div class="step"><div class="num">2</div><h3>We confirm it</h3><p>We'll reply by email with availability, price, and timing.</p></div>
+    <div class="step"><div class="num">3</div><h3>Then you pay</h3><p>Only after the order is confirmed, payment can be sent using the option below.</p></div>
+  </div>
+  <div class="buttons"><a class="btn primary" href="mailto:gentleblossomaz@gmail.com?subject=Gentle%20Blossom%20Custom%20Order&body=Hi!%20I%27d%20like%20a%20custom%20Gentle%20Blossom%20item.%20My%20idea%20is%3A%20">Start a custom request 🌸</a></div>
+</section>
+
+<section id="about">
+  <div class="about">
+    <div>
+      <h2 class="section-title">Meet Gentle Blossom 💙</h2>
+      <p style="font-size:19px;line-height:1.65">Gentle Blossom started from Leilannie's love of making bracelets and cute things by hand. Her family is helping her learn how ideas become a real little business — one creation, one customer, and one lesson at a time.</p>
+      <p style="font-size:19px;line-height:1.65">Her parents help manage the account, messages, orders and safety. The goal is simple: have fun creating, learn, and never get discouraged.</p>
+      <p><strong>“It’ll be difficult, but don’t get discouraged.”</strong></p>
+    </div>
+    <div class="about-card">
+      <h3 style="font-size:28px;color:#173e67;margin-top:0">What you'll find here</h3>
+      <p>🌸 Handmade bracelets</p><p>🩵 Keychains & charms</p><p>✨ Custom color requests</p><p>🎁 Small gifts & future creations</p><p>💌 Parent-managed customer contact</p>
+    </div>
+  </div>
+</section>
+
+<section id="pay" class="soft">
+  <h2 class="section-title">Payment 💳</h2>
+  <div class="payment">
+    <div>
+      <h3 style="font-size:30px;color:#173e67">Cash App: $LJLanderos</h3>
+      <p style="font-size:18px;line-height:1.55">Please <strong>wait until we confirm your item and total by email</strong> before sending payment. Once confirmed, you can scan the QR code or open Cash App directly.</p>
+      <a class="btn primary" href="https://cash.app/$LJLanderos" target="_blank" rel="noopener">Open Cash App</a>
+    </div>
+    <img src="assets/cashapp_qr.png" alt="Cash App QR code for Gentle Blossom">
+  </div>
+</section>
+
+<section id="contact">
+  <h2 class="section-title">Stay in the Blossom 🌸</h2>
+  <div class="contact-grid">
+    <div class="contact-card">
+      <h3>Email us</h3>
+      <p>Questions, orders and custom requests:</p>
+      <a class="btn secondary" href="mailto:gentleblossomaz@gmail.com">gentleblossomaz@gmail.com</a>
+    </div>
+    <div class="contact-card">
+      <h3>Follow on TikTok</h3>
+      <p>See new drops, behind-the-scenes bracelet making and more.</p>
+      <a class="btn secondary" href="https://www.tiktok.com/@gentle.blossom6" target="_blank" rel="noopener">@gentle.blossom6</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div style="font-size:24px;font-weight:900">Gentle Blossom 🌸</div>
+  <div>by Leilannie • Est. 2026</div>
+  <p class="small">Parent-managed account for safety. Please do not send payment until your order is confirmed.</p>
+</footer>
+</body>
+</html>
